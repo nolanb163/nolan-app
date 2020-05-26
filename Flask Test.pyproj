@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Flask_Test\templates\home.html" />
+    <Content Include="Procfile" />
     <Content Include="requirements.txt" />
     <Content Include="Flask_Test\static\content\bootstrap.css" />
     <Content Include="Flask_Test\static\content\bootstrap.min.css" />
