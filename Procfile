@@ -1,1 +1,1 @@
-free: runserver.py
+web: runserver.py
