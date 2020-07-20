@@ -8,31 +8,8 @@ from Flask_Test import app
 
 @app.route('/')
 @app.route('/home')
+@app.route('/boneprison')
 def home():
-    for i in range(6):
-        print(i)
-    """Renders the home page."""
     return render_template(
-        'home.html',
+        'bone-prison.html',
     )
-
-@app.route('/contact')
-def contact():
-    """Renders the contact page."""
-    return render_template(
-        'contact.html',
-        title='Contact',
-        year=datetime.now().year,
-        message='Your contact page.'
-    )
-
-@app.route('/about')
-def about():
-    """Renders the about page."""
-    return render_template(
-        'about.html',
-        title='About',
-        year=datetime.now().year,
-        message='Your application description page.'
-    )
-

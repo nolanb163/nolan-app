@@ -41,7 +41,11 @@
     <Folder Include="Flask_Test\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Flask_Test\templates\bone-prison-alt.jpg" />
+    <Content Include="Flask_Test\templates\bone-prison-background.jpg" />
+    <Content Include="Flask_Test\templates\bone-prison.html" />
     <Content Include="Flask_Test\templates\home.html" />
+    <Content Include="Flask_Test\templates\nolan.html" />
     <Content Include="Procfile" />
     <Content Include="requirements.txt" />
     <Content Include="Flask_Test\static\content\bootstrap.css" />
