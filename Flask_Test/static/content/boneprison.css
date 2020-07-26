@@ -12,3 +12,35 @@ body {
     background-attachment: fixed;
     background-position: left;
 }
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #A93F55;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #19323C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #F2545B;
+    color: #ECE2D0;
+}
+
+.footer {
+    background-color: #A93F55;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: #ECE2D0;
+}
