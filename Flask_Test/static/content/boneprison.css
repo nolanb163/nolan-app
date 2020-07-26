@@ -1,4 +1,13 @@
 
+:root {
+    --main-color: #F2545B;
+    --secondary-color: #A93F55;
+    --accent-color: #FFE066;
+    --dark-color: #19323C;
+    --light-color: #EDE2D0;
+}
+
+
 .center {
     display: block;
     margin-left: auto;
@@ -16,14 +25,14 @@ body {
 /* The navbar container */
 .topnav {
     overflow: hidden;
-    background-color: #A93F55;
+    background-color: var(--secondary-color);
 }
 
 /* Navbar links */
 .topnav a {
     float: left;
     display: block;
-    color: #19323C;
+    color: var(--dark-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,16 +40,16 @@ body {
 
 /* Links - change color on hover */
 .topnav a:hover {
-    background-color: #F2545B;
-    color: #ECE2D0;
+    background-color: var(--main-color);
+    color: var(--light-color);
 }
 
 .footer {
-    background-color: #A93F55;
+    background-color: var(--secondary-color);
     text-align: center;
     padding: 10px;
 }
 
 p {
-    color: #ECE2D0;
+    color: var(--light-color);
 }
